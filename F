@@ -3,3 +3,9 @@ strings = ["hello", "world", "python", "programming", "language"]
 uppercase_strings = [s.upper() for s in strings]
 
 print(uppercase_strings)
+
+
+Output:
+
+['HELLO', 'WORLD', 'PYTHON', 'PROGRAMMING', 'LANGUAGE']
+
