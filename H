@@ -7,3 +7,10 @@ matrix = [[random_multiple_of_4(40, 160) for _ in range(5)] for _ in range(4)]
 
 for row in matrix:
     print(row)
+
+Output:
+
+[156, 60, 88, 44, 120]
+[100, 132, 80, 52, 48]
+[76, 140, 64, 92, 144]
+[108, 68, 160, 124, 116]
