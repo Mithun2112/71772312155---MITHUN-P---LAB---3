@@ -4,3 +4,8 @@ negative_numbers = [x for x in numbers if x < 0]
 
 print("Positive numbers:", positive_numbers)
 print("Negative numbers:", negative_numbers)
+
+Output:
+
+Positive numbers: [12, 5, 9, 11, 8]
+Negative numbers: [-7, -3, -6, -2, -1, -4]
