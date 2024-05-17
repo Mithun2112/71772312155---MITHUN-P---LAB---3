@@ -1,0 +1,9 @@
+import random
+
+def random_multiple_of_4(start, end):
+    return random.choice(range(start, end + 1, 4))
+
+matrix = [[random_multiple_of_4(40, 160) for _ in range(5)] for _ in range(4)]
+
+for row in matrix:
+    print(row)
