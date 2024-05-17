@@ -1,0 +1,6 @@
+numbers = [12, -7, 5, -3, 9, -6, -2, 11, 0, -1, 8, -4]
+positive_numbers = [x for x in numbers if x > 0]
+negative_numbers = [x for x in numbers if x < 0]
+
+print("Positive numbers:", positive_numbers)
+print("Negative numbers:", negative_numbers)
